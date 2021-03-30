@@ -2,10 +2,7 @@
 VSCO unlock vip
 
 QX:
-^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-
-Surge4：
-http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/xxlli2091/Quanx/main/js/vsco.js
 
 Surge & QX MITM = vsco.co
 */
@@ -27,7 +24,7 @@ if (url.indexOf(path1) != -1) {
 	obj.user_subscription["auto_renew"] = true;
 	obj.user_subscription["last_verified_sec"] = 1560831070;
 	obj.user_subscription["subscription_code"] = "VSCOANNUAL";
-	obj.user_subscription["user_id"] = 29677553;
+	obj.user_subscription["user_id"] = 54624336;
 	obj.user_subscription["source"] = 1;
 	body = JSON.stringify(obj);  
  }
