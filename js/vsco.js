@@ -27,7 +27,7 @@ if (url.indexOf(path1) != -1) {
 	obj.user_subscription["auto_renew"] = true;
 	obj.user_subscription["last_verified_sec"] = 1560831070;
 	obj.user_subscription["subscription_code"] = "VSCOANNUAL";
-	obj.user_subscription["user_id"] = 54624336;
+	obj.user_subscription["user_id"] = 29677553;
 	obj.user_subscription["source"] = 1;
 	body = JSON.stringify(obj);  
  }
