@@ -1,3 +1,12 @@
+/*
+国区wps
+
+^https:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/wps.js
+
+[MITM]
+hostname = account.wps.cn
+*/
+
 var obj = JSON.parse($response.body);
 
 var id = obj.userid;
